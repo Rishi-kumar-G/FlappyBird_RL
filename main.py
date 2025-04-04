@@ -15,7 +15,7 @@ hyperparameter = {
 }
     
 
-# g.train_agent(True, 100, 100, hyperparameter)  
-g.main(draw = "True")
+g.train_agent(True, 100, 100, hyperparameter)  
+# g.main(draw = "True")
 score = g.main(True)
 print("Score: ", score)
